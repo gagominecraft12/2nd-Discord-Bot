@@ -1,10 +1,14 @@
-const Discord = require ('discord.js');
+const Discord = require('discord.js');
+const client = new Discord.Client();
 
-
-
-const prefix = 'Bon_';
-
-const cilent = new Discord.Cilent();
-    console.log('A Bot Is Online!');
+client.on('ready', () => {
+  console.log(`Logged in as ${NzU5NTgxMDY5NjY5MzAyMzA1.X2_k_w.cKtrODlb0uc5nCVc8-2NwVurMO8}!`);
 });
-cilent.login('NzUzNjUzNzcxMzM0MTg5MTk2.X1pUxQ.BJzFn7NEekBCTCmAS5HQPnnzajI);
+
+client.on('message', msg => {
+  if (msg.content === 'ping') {
+    msg.reply('Pong!');
+  }
+});
+
+client.login('token');
