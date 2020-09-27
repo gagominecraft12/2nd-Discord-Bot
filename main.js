@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  console.log(`Logged in as ${4k_ZZVc6at0mGazzIj0NQNbPMiVqxA8k}!`);
+  console.log(`Logged in as ${NzU5NTgxMDY5NjY5MzAyMzA1.X2_k_w.cKtrODlb0uc5nCVc8-2NwVurMO8}!`);
 });
 
 client.on('message', msg => {
@@ -11,4 +11,4 @@ client.on('message', msg => {
   }
 });
 
-client.login('token');
+client.login('NzU5NTgxMDY5NjY5MzAyMzA1.X2_k_w.cKtrODlb0uc5nCVc8-2NwVurMO8');
