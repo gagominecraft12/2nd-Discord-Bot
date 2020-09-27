@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 
 client.on('ready', () => {
-  console.log(`Logged in as ${Alt'er#8880}!`);
+  console.log(`Logged in as ${759581069669302305}!`);
 });
 
 client.on('message', msg => {
